@@ -161,12 +161,13 @@ const wash = () => {
                }
                location.reload()    
     }
-     if(mediaquery.matches) {
+    if(mediaquery.matches) {
         washed.style.display = 'none'
         const washlang = `Wash our hands so that we are away from covid-19 because it is difficult to get sick especially nowadays so we always wash our hands no matter what body parts we have!`
        body.style.backgroundColor = "white";
        alert(`${washlang}`)
     }
+}
 const stay = () => {
     const stayAt = document.querySelector("#demo5");
     const background = document.querySelector("#body");
@@ -193,7 +194,7 @@ const stay = () => {
                }
                location.reload()
     }
-   if(mediaquery.matches) {
+    if(mediaquery.matches) {
        stayAt.style.display = 'none'
        const staylang = `Just stay at her house and enjoy being with your loved ones. Don't go out so as not to be infected with the so -called disease because when you get sick, there is a good chance that your loved ones will be affected.`
        body.style.backgroundColor = "white";
