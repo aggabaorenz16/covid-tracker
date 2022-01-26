@@ -29,7 +29,8 @@ const mouth = () => {
     if(mediaquery.matches) {
         modal.style.display = 'none'
         body.style.backgroundColor = "white";
-        alert("This Content is Unavailable on this device!")
+        const modallang = `Cover your mouth if you cough because if you don't cover it it can infect other people who are older than you.`
+        alert(`${modallang}`)
     }
 }
 
@@ -62,7 +63,8 @@ const res = () => {
     if(mediaquery.matches) {
         avoid.style.display = 'none'
         body.style.backgroundColor = "white";
-        alert("This Content is Unavailable on this device!")
+        const avoidlang = `Avoid many people or associate with people who are sick because you are more likely to be infected and infect you so it is better not to associate with people with symptoms`
+        alert(`${avoidlang}`)
     }
 }
 const alcohol = () => {
@@ -94,7 +96,8 @@ const alcohol = () => {
     if(mediaquery.matches) {
         alco.style.display = 'none'
         body.style.backgroundColor = "white";
-        alert("This Content is Unavailable on this device!")
+        const alcolang = `Use Alcohol for Disinfect your hands, Because if you dont use an alcohol you are very vulnerable to COVID-19.`
+        alert(`${alcolang}`)
     }
 }
 const touched = () => {
@@ -128,7 +131,8 @@ const touched = () => {
     if(mediaquery.matches) {
         touch.style.display = 'none'
         body.style.backgroundColor = "white";
-        alert("This Content is Unavailable on this device!")
+        const touchlang = `Avoid touching your mouth if you touch dirty objects such as walls, etc. because bacteria can multiply in your laughter and cause illness.`
+        alert(`${touchlang}`)
     }
 }
 const wash = () => {
@@ -157,12 +161,12 @@ const wash = () => {
                }
                location.reload()    
     }
-    if(mediaquery.matches) {
+     if(mediaquery.matches) {
         washed.style.display = 'none'
+        const washlang = `Wash our hands so that we are away from covid-19 because it is difficult to get sick especially nowadays so we always wash our hands no matter what body parts we have!`
        body.style.backgroundColor = "white";
-       alert("This Content is Unavailable on this device!")
+       alert(`${washlang}`)
     }
-}
 const stay = () => {
     const stayAt = document.querySelector("#demo5");
     const background = document.querySelector("#body");
@@ -189,10 +193,11 @@ const stay = () => {
                }
                location.reload()
     }
-    if(mediaquery.matches) {
+   if(mediaquery.matches) {
        stayAt.style.display = 'none'
+       const staylang = `Just stay at her house and enjoy being with your loved ones. Don't go out so as not to be infected with the so -called disease because when you get sick, there is a good chance that your loved ones will be affected.`
        body.style.backgroundColor = "white";
-       alert("This Content is Unavailable on this device!")
+       alert(`${staylang}`)
     }}
 const fetch = () => {
     let result = axios({
