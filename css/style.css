@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.home {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 100%;
+    place-items: center;
+    margin-top: 80px;
+    height: 75vh;
+}
+.home .covidText h1 {
+    color: red;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+}
+.home .covidText p {
+    color: black;
+    font-family: 'Comfortaa' !important;
+    font-size: 25px;
+}
+.home .image img {
+    width: 450px;
+}
+.home .covidText span {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+.footer footer {
+    background-color: rgba(17, 16, 16, 0.897);
+    height: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    justify-content: center;
+    font-size: 15px;
+    padding: 1rem;
+}
+.homeSafety {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    place-items: center;
+    margin: 4rem;
+    grid-gap: 10px;
+    padding: 1rem   ;
+}
+.safetyText .title h1 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+}
+.safeBox {
+    background-color: rgba(204, 193, 193, 0.205);
+    box-shadow: 2px 2px 5px 5px #42404038;
+  text-align: center;
+  font-size: 20px;
+  padding: 1rem;
+  width: 300px;
+  color: rgb(0, 0, 0);
+  height: 250px;
+}
+.homeSafety .safeBox .img img {
+    margin: 20px;
+    width: 80px;
+}
+.homeSafety .safeBox .btnSafe button {
+    margin: 20px;
+    width: 80px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 8px;
+    font-family: 'Comfortaa' !important;
+    background-color: rgba(153, 35, 35, 0.87);
+    color: white;
+    border: none;
+    padding: 1rem;
+    height: 50px;
+}
+.homeSafety .safeBox .btnSafe button:hover {
+    background-color: red;
+    transition: 1ms ease;
+}
+#demo, #demo1, #demo2, #demo3, #demo4, #demo5 {
+    display: none;
+}
+.homeAbout, .homeSafety {
+    height: 85vh;
+}
+
+.homeAbout .about h1 {
+    font-size: 35px;
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.homeAbout .textAbout p {
+    font-size: 18px;
+    color: black;
+    padding: 3rem;
+    display: grid;
+    justify-content: center;
+    font-family: 'Montserrat';
+    background-color: rgba(216, 210, 210, 0.205);
+    box-shadow: 2px 2px 5px 5px #403c3c3b;
+    width: 95vw;
+    margin: 1rem;
+}
+.homeAbout .textAbout span {
+  margin-top: 1rem;
+  color: red;
+  font-size: 17px;
+  font-family: 'Montserrat';
+}
+nav {
+    font-size: 20px;
+}
+@media all and (max-width: 500px) {
+    .home {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        width: 100vw;
+    }
+    .home .covidText h1 {
+        color: red;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .home .covidText p {
+        color: black;
+        font-family: 'Comfortaa' !important;
+        font-size: 20px;
+    }
+    .home .image img {
+        display: none;
+    }
+    .home .covidText span {
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        color: red;
+    }
+    .footer footer {
+        background-color: rgba(17, 16, 16, 0.897);
+    }
+    .homeSafety {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        height: 100vh;
+    }
+    .safetyText .title h1 {
+        font-size: 23px;
+        font-family: 'Montserrat', sans-serif;
+        display: grid;
+        justify-content: center;
+        padding: 2rem;
+    }
+    .safeBox {
+        width: 200px;
+        margin: 1rem;
+        margin-left: -20px;
+    }
+    .homeSafety .safeBox .img img {
+        margin: 20px;
+        width: 80px;
+    }
+    .homeSafety .safeBox .btnSafe button {
+        margin: 20px;
+        width: 100px;
+        font-size: 15px;
+        outline: none;
+        border-radius: 8px;
+        font-family: 'Comfortaa' !important;
+        background-color: rgba(153, 35, 35, 0.87);
+        color: white;
+        border: none;
+        padding: 1rem;
+        height: 50px;
+    }
+    .homeSafety .safeBox .btnSafe button:hover {
+        background-color: red;
+        width: 100px;
+        transition: 1ms ease;
+    }
+    #demo, #demo1, #demo2, #demo3, #demo4, #demo5 {
+        display: none;
+        margin-top: -800rem;
+
+    }
+    .homeAbout, .homeSafety {
+        height: 85vh;
+    }
+    .homeAbout {
+        height: 100vh;
+    }
+    .homeAbout .about h1 {
+        font-size: 35px;
+        padding: 2rem;
+        display: grid;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .homeAbout .textAbout p {
+        font-size: 20px;
+        color: black;
+        padding: 2rem;
+        display: grid;
+        justify-content: center;
+        font-family: 'Montserrat';
+        background-color: rgba(216, 210, 210, 0.205);
+        box-shadow: 2px 2px 5px 5px #48464621;
+        width: 90vw;
+        margin: 1rem;
+    }
+    .homeAbout .textAbout span {
+      margin-top: 1rem;
+      color: red;
+      font-size: 18px;
+      font-family: 'Montserrat';
+   }
+   #demo4 {
+       padding-top: 80%;
+   }
+}
+@media all and (min-width: 501px) and (max-width: 720px) {
+    .home {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        width: 100vw;
+    }
+    .home .covidText h1 {
+        color: red;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .home .covidText p {
+        color: black;
+        font-family: 'Comfortaa' !important;
+        font-size: 20px;
+    }
+    .home .image img {
+        display: none;
+    }
+    .home .covidText span {
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        color: red;
+    }
+    .footer footer {
+        background-color: rgba(17, 16, 16, 0.897);
+    }
+    .homeSafety {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        height: 100vh;
+    }
+    .safetyText .title h1 {
+        font-size: 23px;
+        font-family: 'Montserrat', sans-serif;
+        display: grid;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .safeBox {
+        width: 200px;
+        margin: 2rem;
+        margin-left: -20px;
+    }
+    .homeSafety .safeBox .img img {
+        margin: 20px;
+        width: 80px;
+    }
+    .homeSafety .safeBox .btnSafe button {
+        margin: 20px;
+        width: 100px;
+        font-size: 15px;
+        outline: none;
+        border-radius: 8px;
+        font-family: 'Comfortaa' !important;
+        background-color: rgba(153, 35, 35, 0.87);
+        color: white;
+        border: none;
+        padding: 1rem;
+        height: 50px;
+    }
+    .homeSafety .safeBox .btnSafe button:hover {
+        background-color: red;
+        width: 100px;
+        transition: 1ms ease;
+    }
+    #demo, #demo1, #demo2, #demo3, #demo4, #demo5 {
+        display: none;
+        margin-top: -800rem;
+
+    }
+    .homeAbout, .homeSafety {
+        height: 85vh;
+    }
+    .homeAbout {
+        height: 100vh;
+    }
+    .homeAbout .about h1 {
+        font-size: 35px;
+        padding: 2rem;
+        display: grid;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .homeAbout .textAbout p {
+        font-size: 20px;
+        color: black;
+        padding: 2rem;
+        display: grid;
+        justify-content: center;
+        font-family: 'Montserrat';
+        background-color: rgba(216, 210, 210, 0.205);
+        box-shadow: 2px 2px 5px 5px #48464621;
+        width: 90vw;
+        margin: 1rem;
+    }
+    .homeAbout .textAbout span {
+      margin-top: 1rem;
+      color: red;
+      font-size: 18px;
+      font-family: 'Montserrat';
+   }
+   #demo4 {
+       padding-top: 80%;
+   }
+}
+@media all and (min-width: 721px) and (max-width: 1081px) {
+    .home {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        width: 100vw;
+    }
+    .home .covidText h1 {
+        color: red;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .home .covidText p {
+        color: black;
+        font-family: 'Comfortaa' !important;
+        font-size: 30px;
+    }
+    .home .image img {
+        display: none;
+    }
+    .home .covidText span {
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        color: red;
+    }
+    .footer footer {
+        background-color: rgba(17, 16, 16, 0.897);
+    }
+    .homeSafety {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        height: 100vh;
+    }
+    .safetyText .title h1 {
+        font-size: 23px;
+        font-family: 'Montserrat', sans-serif;
+        display: grid;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .safeBox {
+        width: 200px;
+        margin: 2rem;
+        margin-left: -20px;
+    }
+    .homeSafety .safeBox .img img {
+        margin: 20px;
+        width: 80px;
+    }
+    .homeSafety .safeBox .btnSafe button {
+        margin: 20px;
+        width: 100px;
+        font-size: 15px;
+        outline: none;
+        border-radius: 8px;
+        font-family: 'Comfortaa' !important;
+        background-color: rgba(153, 35, 35, 0.87);
+        color: white;
+        border: none;
+        padding: 1rem;
+        height: 50px;
+    }
+    .homeSafety .safeBox .btnSafe button:hover {
+        background-color: red;
+        width: 100px;
+        transition: 1ms ease;
+    }
+    #demo, #demo1, #demo2, #demo3, #demo4, #demo5 {
+        display: none;
+        margin-top: -800rem;
+
+    }
+    .homeAbout, .homeSafety {
+        height: 85vh;
+    }
+    .homeAbout {
+        height: 95vh;
+        margin-left: 10px;
+
+    }
+    .homeAbout .about h1 {
+        font-size: 35px;
+        padding: 2rem;
+        display: grid;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .homeAbout .textAbout p {
+        font-size: 20px;
+        color: black;
+        padding: 2rem;
+        display: grid;
+        justify-content: center;
+        font-family: 'Montserrat';
+        background-color: rgba(216, 210, 210, 0.205);
+        box-shadow: 2px 2px 5px 5px #48464621;
+        width: 90vw;
+        margin: 1rem;
+    }
+    .homeAbout .textAbout span {
+      margin-top: 1rem;
+      color: red;
+      font-size: 18px;
+      font-family: 'Montserrat';
+   }
+   #demo4 {
+       padding-top: 80%;
+}
+}
